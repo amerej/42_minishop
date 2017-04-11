@@ -1,0 +1,22 @@
+article
+{
+	width: 80vw;
+	height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25vh;
+}
+#pass
+{
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30vw;
+}
+#delete
+{
+	margin-top: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vw;	
+}

@@ -1,0 +1,118 @@
+#canevas
+{
+	width: 80%;
+	height: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vh;
+}
+#product, #user
+{
+	height: 60vh;
+	width: 49%;
+	float: left;
+}
+#line
+{
+	height: 50vh;
+	width: 0.25vw;
+	background: #F0F0F0;
+	border-radius: 8px;
+	float: left;
+}
+#info
+{
+	margin-left: 7%;
+	width: 60%;
+	float: left;
+}
+#submit
+{
+	margin-top: 7.5vh;
+	float: left;
+	width: 30%;
+}
+h3
+{
+	font-family: Arial;
+	font-size: 1.5vw;
+	margin-left: 10%;
+	margin-bottom: 2vh;
+}
+.btn
+{
+	transform: translateY(70%);
+	margin-top: 1.5vh;
+	font-family: Monospace;
+	font-size: 1vw;
+	-webkit-appearance: none;
+	width: 8vw;
+	height: 2.5vh;
+	background: #FFFFFF;
+	border-radius: 25px;
+	border: 2px solid #909090;
+}
+.btn:hover
+{
+	box-shadow: 0 3px 10px black;
+	cursor: pointer;
+}
+.btn:focus
+{
+	outline: none;
+}
+.text
+{
+	float: left;
+	margin-top: 1.5vh;
+	margin-left: 2vw;
+	font-family: Monospace;
+	padding-left: 0.7vw;
+	font-size: 0.7vw;
+	-webkit-appearance: none;
+	width: 8vw;
+	height: 2.5vh;
+	background: #FFFFFF;
+	border-radius: 25px;
+	border: 2px solid #909090;
+}
+.text:focus
+{
+	outline: none;
+	background: #F0F0F0
+}
+#cat
+{
+	margin-top: 2vh;
+	width: 100%;
+	float: left;
+}
+.check
+{
+	color: #B0B0B0;
+	font-family: Monospace;
+	font-size: 0.7vw;
+	padding-top: 0.4vh;
+	margin-left: 2vw;
+	float: left;
+	text-align: center;
+	height: 2.1vh;
+	border: 2px solid #909090;
+	border-radius: 25px;
+	margin-top: 1vh;
+	width: 8vw;
+}
+.check:hover
+{
+	cursor: pointer;
+}
+#remove, #remove2
+{
+	margin-top: 1.2vh;
+	float: left;
+}
+#select
+{
+	margin-bottom: 1.2vh;
+	padding-right: 1vw;
+}

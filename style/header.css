@@ -1,0 +1,124 @@
+header
+{
+	z-index: 5;
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	top: 0;
+	background-color: rgba(200, 200, 200, 1);
+}
+h1
+{
+	font-size: 3vw;
+	font-family: Arial;
+	margin-left: 15vw;
+	margin-top: 1.2vh;
+	float: left;
+}
+h1:hover
+{
+	cursor: pointer;
+}
+.htext
+{
+	background-color: white;
+	border: 2px solid #707070;
+	border-radius: 18px;
+	width: 8vw;
+	height: 2.5vh;
+	font-family: Monospace;
+	font-size: 0.7vw;
+	margin-left: 1vw;
+	transform: translateY(-5%);
+	padding-left: 0.4vw;
+}
+.htext:focus
+{
+	outline: none;
+}
+.hbtn
+{
+	-webkit-appearance: none;
+	width: 6vw;
+	height: 3vh;
+	border-radius: 20px;
+	background: white;
+	border: 2px solid #707070;
+	font-family: Monospace;
+	font-size: 1vw;
+	margin-left: 1vw;
+}
+.hbtn:hover
+{
+	box-shadow: 0 3px 10px black;
+	cursor: pointer;
+}
+.hbtn:focus
+{
+	outline: none;
+}
+#log_form
+{
+	height: 8vh;
+	float: right;
+	margin-top: 3.5vh;
+}
+#cart_btn
+{
+	text-decoration: none;
+	margin-top: -0.5vh;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	float: right;
+	width: 4vw;
+}
+#count
+{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.6vw;
+	font-family: Monospace;
+}
+img
+{
+	width: 4vw;
+}
+#delete_btn
+{
+	margin-top: 3.5vh;
+	float: right;
+	-webkit-appearance: none;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 20px;
+	background: white;
+	border: 2px solid #707070;
+	font-family: Monospace;
+	font-size: 1vw;
+	margin-left: 1vw;
+}
+#delete_btn:hover
+{
+	cursor: pointer;
+}
+#delete_btn:focus
+{
+	outline: none;
+}
+#proceed_box
+{
+	margin-right: 0.5vw;
+	height: 8vh;
+	float: right;
+	margin-top: 3.5vh;
+}
+#proceed:focus
+{
+	outline: none;
+}
+#proceed:hover
+{
+	box-shadow: 0 3px 10px black;
+	cursor: pointer;
+}

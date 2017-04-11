@@ -1,0 +1,18 @@
+footer
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 1.7vh;
+	height: 5.3vh;
+	background-color: rgb(200, 200, 200);
+}
+h4
+{
+	margin-top: 0;
+	font-family: Monospace;
+	font-weight: normal;
+	font-size:1.52vw;
+	text-align: center;
+}

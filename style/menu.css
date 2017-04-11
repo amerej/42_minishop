@@ -1,0 +1,47 @@
+#menu
+{
+	width: 20vw;
+	height: 45vh;
+	margin-top: 7.8vh;
+	border-radius: 10px;
+	float: left;
+}
+#menu_title
+{
+	padding-top: 1vh;
+	height: 5vh;
+	border-radius: 10px 10px 0 0;
+	background-color: rgba(120, 120, 120, 0.7);
+}
+#cat
+{
+	background-color: rgba(120, 120, 120, 0.5);
+	padding-left: 1.5vw;
+	padding-top: 0.8vh;
+	height: 4.2vh;
+	width: 18.5vw;
+	font-size: 1.4vw;
+	border-radius: 0 0 0 0;
+	font-family: Monospace;
+	transition: width 0.5s,
+	height 0.5s,
+	border-radius 0.5s,
+	background-color 0.5s,
+	padding-top 0.5s;
+}
+#cat:hover
+{
+	cursor: pointer;
+	border-radius: 0 10px 10px 0;
+	width: 22vw;
+	height: 4.6vh;
+	padding-top: 1.2vh;
+	background-color: rgba(120, 120, 120, 0.7);
+}
+#menu_text
+{
+	margin-top: 0.2vh;
+	margin-left: 3vw;
+	font-size: 1.7vw;
+	font-family: Arial;
+}
